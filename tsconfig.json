@@ -1,0 +1,18 @@
+{
+  "include": ["js-src"],
+  "compilerOptions": {
+    "declaration": true,      
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2021", "ES2022.Error"],
+    "module": "Node16",
+    "moduleResolution": "node",
+    "noImplicitAny": true,    
+    "outDir": "dist",         
+    "resolveJsonModule": true,
+    "rootDir": "./", 
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2021",
+  }
+}
